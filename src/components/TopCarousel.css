@@ -1,10 +1,15 @@
 .carousel{
-    height: 18rem;
-    width: 30rem;
-    border: 2px solid;
+    position: absolute;
+    /* height: 24rem;
+    width: 30rem; */
+    width: 55vw;
+    height: 50vh;
+    /* border: 2px solid; */
+    right: 120px;
+    top: 4rem;
 }
 
 .carousel-inner{
-    height: 18rem;
-    width: 10rem;
+   height: 50vh;
 }
+
