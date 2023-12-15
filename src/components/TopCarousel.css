@@ -1,0 +1,9 @@
+.carousel{
+    height: 18rem;
+    width: 30rem;
+    border: 2px solid;
+}
+
+.carousel-inner{
+    height: 18rem;
+}
