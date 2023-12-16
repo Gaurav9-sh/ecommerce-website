@@ -1,11 +1,23 @@
 .card{
-    position: absolute;
-    border: 1px solid;
-    height: 40vh;
-    width: 15vw;
-    top: 40rem;
+    /* border: 1px solid; */
+    height: 60vh;
+    width: 19vw;
     left: 5rem;
+    border-radius: 4px;
+    border: none;
 }
 .cardImage{
-    border: 1px solid red;
+    height: 36vh;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.specification{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.cardImage img{
+    mix-blend-mode:multiply;
 }

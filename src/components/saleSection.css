@@ -1,18 +1,14 @@
-/* .saleSection h4{
+.saleSection {
+    /* border: 1px solid; */
     position: absolute;
     top: 30rem;
-    left: 4.5rem;
-    border-left: 15px solid;
-    padding-left: 1rem;
-    border-color: #DB4444;
-    color: #DB4444;
-    font-family: poppins;
-} */
-
+    height: 100vh;
+    /* width: 100%; */
+    /* overflow: hidden; */
+}
 .writingPart{
-    position: absolute;
-    border: 1px solid;
-    top: 30rem;
+    position: relative;
+    /* border: 1px solid; */
     left: 4.5rem;
 }
 
@@ -28,4 +24,19 @@
     font-family: poppins;
     font-weight: 600;
     margin-top: 1rem;
+}
+
+.cardSection{
+    display: flex;
+    /* border: 1px solid; */
+    height: 70vh;
+    margin-top: 1rem;
+    width: 100%;
+    gap: 2rem;
+}
+
+.btn{
+     position: relative;
+     left: 50%;
+     width: 10rem;
 }
