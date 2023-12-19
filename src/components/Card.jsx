@@ -5,6 +5,7 @@ import Star from '../images/Star.jpg'
 const Card = (props) => {
   return (
     <div className='card'>
+      <div className="sale">-35%</div>
         <div className="cardImage">
             <img src={props.image}  alt="" />
         </div>

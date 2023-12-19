@@ -1,4 +1,19 @@
 .category{
-    border: 1px solid;
+    position: relative;
+    /* border: 1px solid; */
     height: 20rem;
+    top: 20rem;
+}
+
+.boxCategory{
+    display: flex;
+    gap: 6rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.horizontalline{
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
 }

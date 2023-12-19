@@ -1,42 +1,55 @@
-.saleSection {
+.saleSection{
     /* border: 1px solid; */
-    position: absolute;
-    top: 30rem;
-    height: 100vh;
-    /* width: 100%; */
+    height: 33rem;
+    position: relative;
+    top: 10rem;
     /* overflow: hidden; */
 }
-.writingPart{
-    position: relative;
+
+.writingSection{
     /* border: 1px solid; */
-    left: 4.5rem;
+    padding-left: 1.7rem;
 }
 
-.writingPart h4{
+.heading4{
     border-left: 15px solid;
-    border-color: #DB4444;
+    padding-left: 1rem;
     color: #DB4444;
     font-family: poppins;
-    padding-left: 1rem;
 }
 
-.writingPart h1{
+.heading1{
     font-family: poppins;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
-.cardSection{
+.cardsSection{
+    position: relative;
+    /* border: 1px solid green; */
     display: flex;
-    /* border: 1px solid; */
-    height: 70vh;
-    margin-top: 1rem;
-    width: 100%;
-    gap: 2rem;
+    gap: 2rem; 
+    margin-left: -3rem;
+    overflow: hidden;
 }
 
-.btn{
-     position: relative;
-     left: 50%;
-     width: 10rem;
+.slidingClass{
+    display: flex;
+}
+
+.buttonClass{
+    position: absolute;
+    right: 2rem;
+}
+
+.buttonClass button{
+    margin: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    color: #DB4444;
+}
+
+#morebutton{
+    margin-left: 45%;
+    margin-top: 2rem;
 }
