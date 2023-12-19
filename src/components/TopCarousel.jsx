@@ -5,6 +5,7 @@ import shoes from '../images/shoes.jpg'
 import shirt from '../images/shirt.jpg'
 import bedsheet from '../images/bedsheet.jpeg'
 import lcd from '../images/lcd.png'
+
 const TopCarousel = () => {
   return (
     <div>
@@ -20,13 +21,13 @@ const TopCarousel = () => {
       <img src={iphone} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={shoes} className="d-block w-100" alt="..."/>
+      <img src={iphone} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={shirt} className="d-block w-100" alt="..."/>
+      <img src={iphone} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={lcd} className="d-block w-100" alt="..."/>
+      <img src={iphone} className="d-block w-100" alt="..."/>
     </div>
 
   </div>
