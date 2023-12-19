@@ -1,3 +1,20 @@
+
+/* .saleSection h4{
+    position: absolute;
+    top: 30rem;
+    left: 4.5rem;
+    border-left: 15px solid;
+    padding-left: 1rem;
+    border-color: #DB4444;
+    color: #DB4444;
+    font-family: poppins;
+} */
+
+.writingPart{
+    position: absolute;
+    border: 1px solid;
+    top: 30rem;
+
 .saleSection {
     /* border: 1px solid; */
     position: absolute;
@@ -9,6 +26,7 @@
 .writingPart{
     position: relative;
     /* border: 1px solid; */
+
     left: 4.5rem;
 }
 
@@ -24,6 +42,7 @@
     font-family: poppins;
     font-weight: 600;
     margin-top: 1rem;
+
 }
 
 .cardSection{
@@ -39,4 +58,5 @@
      position: relative;
      left: 50%;
      width: 10rem;
+
 }
