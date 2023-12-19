@@ -1,5 +1,14 @@
 import React from 'react'
 import './Card.css'
+
+
+const Card = () => {
+  return (
+    <div className='card'>
+        <div className="cardImage">
+            
+        </div>
+
 import Star from '../images/Star.jpg'
 
 const Card = (props) => {
@@ -22,6 +31,7 @@ const Card = (props) => {
         </div>
         
        
+
     </div>
   )
 }

@@ -1,4 +1,15 @@
 .card{
+
+    position: absolute;
+    border: 1px solid;
+    height: 40vh;
+    width: 15vw;
+    top: 40rem;
+    left: 5rem;
+}
+.cardImage{
+    border: 1px solid red;
+
     /* border: 1px solid; */
     height: 60vh;
     min-width: 19vw;
@@ -28,6 +39,7 @@
 
 .cardImage img{
     mix-blend-mode:multiply;
+
 }
 
 .sale{
