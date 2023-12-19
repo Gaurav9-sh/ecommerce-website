@@ -4,6 +4,9 @@ import TopCarousel from './TopCarousel'
 import Sidebar from './Sidebar'
 import SalesSection from './SalesSection'
 
+import Category from './Category'
+
+
 const HomePage = () => {
   return (
     <div>
@@ -11,6 +14,9 @@ const HomePage = () => {
         <TopCarousel/>
         <Sidebar/>
         <SalesSection/>
+
+        <Category/>
+
     </div>
   )
 }

@@ -1,3 +1,4 @@
+
 /* .saleSection h4{
     position: absolute;
     top: 30rem;
@@ -13,6 +14,19 @@
     position: absolute;
     border: 1px solid;
     top: 30rem;
+
+.saleSection {
+    /* border: 1px solid; */
+    position: absolute;
+    top: 30rem;
+    height: 100vh;
+    /* width: 100%; */
+    /* overflow: hidden; */
+}
+.writingPart{
+    position: relative;
+    /* border: 1px solid; */
+
     left: 4.5rem;
 }
 
@@ -28,4 +42,21 @@
     font-family: poppins;
     font-weight: 600;
     margin-top: 1rem;
+
+}
+
+.cardSection{
+    display: flex;
+    /* border: 1px solid; */
+    height: 70vh;
+    margin-top: 1rem;
+    width: 100%;
+    gap: 2rem;
+}
+
+.btn{
+     position: relative;
+     left: 50%;
+     width: 10rem;
+
 }
